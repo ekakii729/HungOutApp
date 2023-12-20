@@ -1,6 +1,3 @@
-import com.formdev.flatlaf.FlatDarculaLaf;
-import com.formdev.flatlaf.FlatLightLaf;
-
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -30,7 +27,6 @@ public class Clips extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FlatDarculaLaf.setup();
 					Clips frame = new Clips();
 					frame.setVisible(true);
 				} catch (Exception e) {
