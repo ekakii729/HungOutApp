@@ -15,6 +15,7 @@ import javax.swing.JPasswordField;
  * @author ADMINS
  * Description: Demo for login(sign up)
  */
+
 public class Signup extends JFrame {
 
 	private static final long serialVersionUID = 1L;

@@ -1,3 +1,5 @@
+import com.formdev.flatlaf.FlatDarculaLaf;
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -31,6 +33,7 @@ public class login extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					FlatDarculaLaf.setup();
 					login frame = new login();
 					frame.setVisible(true);
 				} catch (Exception e) {
