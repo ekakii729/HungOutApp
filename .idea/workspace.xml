@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="added user class + class comments">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="added some stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HungOutApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HungOutApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +43,14 @@
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Abhay/Downloads/mysql-connector-java-8.0.26.jar",
+    "last_opened_file_path": "C:/Users/Abhay/Downloads/flatlaf-3.2.5.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -74,7 +73,7 @@
       <workItem from="1703011144370" duration="70000" />
       <workItem from="1703011418002" duration="2621000" />
       <workItem from="1703022524610" duration="649000" />
-      <workItem from="1703030373986" duration="2161000" />
+      <workItem from="1703030373986" duration="4568000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned up shit">
       <created>1702927775179</created>
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703022787313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added some stuff">
+      <created>1703032574725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703032574725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +124,7 @@
     <MESSAGE value="Cleaned up shit" />
     <MESSAGE value="devin aids" />
     <MESSAGE value="added user class + class comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user class + class comments" />
+    <MESSAGE value="added some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some stuff" />
   </component>
 </project>
