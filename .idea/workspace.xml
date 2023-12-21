@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Signup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginScreen.java" afterDir="false" />
-    </list>
+    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="Made Diep Code into methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +78,7 @@
       <workItem from="1703022524610" duration="649000" />
       <workItem from="1703030373986" duration="2161000" />
       <workItem from="1703098750344" duration="535000" />
-      <workItem from="1703122379874" duration="726000" />
+      <workItem from="1703122379874" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned up shit">
       <created>1702927775179</created>
@@ -121,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703099622040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Made Diep Code into methods">
+      <created>1703123348689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703123348689</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +145,7 @@
     <MESSAGE value="added user class + class comments" />
     <MESSAGE value="removed testing" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Made Diep Code into methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Diep Code into methods" />
   </component>
 </project>
