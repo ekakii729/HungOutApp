@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="Made Diep Code into methods">
+    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="I changed a shit ton bruh">
+      <change afterPath="$PROJECT_DIR$/src/AuthenticationScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignupScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SignupScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignupScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -83,7 +85,7 @@
       <workItem from="1703030373986" duration="2161000" />
       <workItem from="1703098750344" duration="535000" />
       <workItem from="1703122379874" duration="1183000" />
-      <workItem from="1703123571861" duration="3665000" />
+      <workItem from="1703123571861" duration="12673000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned up shit">
       <created>1702927775179</created>
@@ -134,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703123509893</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Made Sign Up Screen Prettier">
+      <created>1703127283952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703127283952</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Made imports alphabetical;">
+      <created>1703127507572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703127507572</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +174,10 @@
     <MESSAGE value="removed testing" />
     <MESSAGE value="test" />
     <MESSAGE value="Made Diep Code into methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Diep Code into methods" />
+    <MESSAGE value="Made Sign Up Screen Prettier" />
+    <MESSAGE value="Made imports alphabetica;" />
+    <MESSAGE value="Made imports alphabetical;" />
+    <MESSAGE value="I changed a shit ton bruh" />
+    <option name="LAST_COMMIT_MESSAGE" value="I changed a shit ton bruh" />
   </component>
 </project>
