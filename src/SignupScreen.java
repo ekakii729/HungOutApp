@@ -88,7 +88,7 @@ public class SignupScreen extends AuthenticationScreen {
 	 * @Date December 20, 2023
 	 * @Modified December 20, 2023
 	 * @Description Runs the sign-up screen
-	 * @Parameters args - arguments ot be passed in
+	 * @Parameters args - arguments to be passed in
 	 * @Returns N/A, Data Type: Void
 	 * @Dependencies: N/A
 	 * @Throws/Exceptions: N/A

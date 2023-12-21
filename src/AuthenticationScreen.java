@@ -30,7 +30,7 @@ public abstract class AuthenticationScreen extends JFrame {
         setTitle(title);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(500, 0, 450, 350);
-        //setResizable(false);
+        setResizable(false);
     }
 
     /** Method Name: drawMainPanel
@@ -172,7 +172,7 @@ public abstract class AuthenticationScreen extends JFrame {
      */
 
     private JButton createButton(String text, int x, int y, int width, int height) {
-        JButton button = new JButton(text);
+        JButton button = new JButton(text); // button to return
         button.setFont(TAHOMA_FONT);
         button.setBounds(x,y,width,height);
         return button;
