@@ -61,11 +61,11 @@ public class LoginScreen extends JFrame implements ActionListener {
 	private void initLogInSection() {
 		logInPanel = new JPanel(null);
 		logInPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(logInPanel);
 		JTextField logInTextField = new JTextField(); // the log in text field
 		logInTextField.setBounds(153, 113, 164, 49);
 		logInTextField.setColumns(10);
 		logInPanel.add(logInTextField);
-		setContentPane(logInPanel);
 	}
 
 	/** Method Name: initUserNameLabel
