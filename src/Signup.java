@@ -13,7 +13,7 @@ import javax.swing.JPasswordField;
 
 /**
  * @author ADMINS
- * Description: Demo for login(sign up)
+ * Description: Demo for LoginScreen(sign up)
  */
 
 public class Signup extends JFrame {
@@ -82,7 +82,7 @@ public class Signup extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource()==btnNewButton) {
-        			login newlogin=new login();
+        			LoginScreen newlogin=new LoginScreen();
         			newlogin.setVisible(true);
         			dispose();
         		}
@@ -102,7 +102,7 @@ public class Signup extends JFrame {
 	        btnNewButton_2.addActionListener(new ActionListener() {
 	        	public void actionPerformed(ActionEvent e) {
 	        		if(e.getSource()==btnNewButton_2) {
-	        			login newlogin=new login();
+	        			LoginScreen newlogin=new LoginScreen();
 	        			newlogin.setVisible(true);
 	        			dispose();
 	        		}

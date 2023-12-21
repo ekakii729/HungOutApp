@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="removed testing">
-      <change beforePath="$PROJECT_DIR$/src/Clips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clips.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.java" afterDir="false" />
+    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Signup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -59,6 +63,11 @@
     ]
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="/** Method Name: initForgotPassWordButton &#9; * @Author Diep Long &#9; * @Date December 20, 2023 &#9; * @Modified December 20, 2023 &#9; * @Description Initializes the forgot password button &#9; * @Parameters N/A &#9; * @Returns N/A, Data Type: Void &#9; * @Dependencies: N/A &#9; * @Throws/Exceptions: N/A &#9; */" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,6 +84,7 @@
       <workItem from="1703022524610" duration="649000" />
       <workItem from="1703030373986" duration="2161000" />
       <workItem from="1703098750344" duration="535000" />
+      <workItem from="1703122379874" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned up shit">
       <created>1702927775179</created>
@@ -104,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703047371897</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1703099622040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703099622040</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +143,7 @@
     <MESSAGE value="devin aids" />
     <MESSAGE value="added user class + class comments" />
     <MESSAGE value="removed testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed testing" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
