@@ -12,8 +12,11 @@ public abstract class AuthenticationScreen extends JFrame {
 
     private final JPanel MAIN_PANEL = new JPanel(null); // main panel of the screen
     private final Font TAHOMA_FONT = new Font("Tahoma", Font.PLAIN, 18); // font that is used throughout
+    private final JPasswordField PASSWORD_FIELD = new JPasswordField(); // field where password is entered
+    private final JTextField USERNAME_FIELD = new JTextField(); // field where username is entered
     private JButton mainButton; // main button of the screen
     private JButton optionalButton; // optional button of the screen
+
 
     /** Method Name: drawScreen
      * @Author Diep Long, Abhay Manoj
@@ -81,7 +84,7 @@ public abstract class AuthenticationScreen extends JFrame {
 
     public void drawUserNameSection() {
         drawUserNameLabel();
-        drawUserNameTextField();
+        drawUserNameField();
     }
 
     /** Method Name: drawPasswordSection
@@ -199,7 +202,7 @@ public abstract class AuthenticationScreen extends JFrame {
     /** Method Name: drawPasswordField
      * @Author Diep Long, Abhay Manoj
      * @Date December 20, 2023
-     * @Modified December 20, 2023
+     * @Modified December 21, 2023
      * @Description Draws the field for the password
      * @Parameters N/A
      * @Returns N/A, Data Type: Void
@@ -208,15 +211,14 @@ public abstract class AuthenticationScreen extends JFrame {
      */
 
     private void drawPasswordField() {
-        JPasswordField passwordField = new JPasswordField(); // takes in password input
-        passwordField.setBounds(215,153,181,37);
-        MAIN_PANEL.add(passwordField);
+        PASSWORD_FIELD.setBounds(215,153,181,37);
+        MAIN_PANEL.add(PASSWORD_FIELD);
     }
 
     /** Method Name: drawUserNameLabel
      * @Author Diep Long, Abhay Manoj
      * @Date December 20, 2023
-     * @Modified December 20, 2023
+     * @Modified December 21, 2023
      * @Description Draws the label for the username
      * @Parameters N/A
      * @Returns N/A, Data Type: Void
@@ -231,10 +233,10 @@ public abstract class AuthenticationScreen extends JFrame {
         MAIN_PANEL.add(userNameLabel);
     }
 
-    /** Method Name: drawUserNameTextField
+    /** Method Name: drawUserNameField
      * @Author Diep Long, Abhay Manoj
      * @Date December 20, 2023
-     * @Modified December 20, 2023
+     * @Modified December 21, 2023
      * @Description Draws the field for the username
      * @Parameters N/A
      * @Returns N/A, Data Type: Void
@@ -242,11 +244,10 @@ public abstract class AuthenticationScreen extends JFrame {
      * @Throws/Exceptions: N/A
      */
 
-    private void drawUserNameTextField() {
-        JTextField userNameTextField = new JTextField(); // takes in username input
-        userNameTextField.setBounds(215,103,181,37);
-        userNameTextField.setColumns(10);
-        MAIN_PANEL.add(userNameTextField);
+    private void drawUserNameField() {
+        USERNAME_FIELD.setBounds(215,103,181,37);
+        USERNAME_FIELD.setColumns(10);
+        MAIN_PANEL.add(USERNAME_FIELD);
     }
 
     public JPanel getMainPanel() { return MAIN_PANEL; }
@@ -255,6 +256,9 @@ public abstract class AuthenticationScreen extends JFrame {
 
     public JButton getOptionalButton() { return optionalButton; }
 
+    public JPasswordField getPasswordField() { return PASSWORD_FIELD; }
+
+    public JTextField getUsernameField() { return USERNAME_FIELD; }
     public Font getFont() { return TAHOMA_FONT; }
 
 }

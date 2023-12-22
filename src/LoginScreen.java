@@ -5,14 +5,15 @@
  */
 
 import java.awt.EventQueue;
-import javax.swing.JButton;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 public class LoginScreen extends AuthenticationScreen {
 
 	private final JPanel logInPanel = getMainPanel(); // the panel for the log in screen
 	private final JButton signInButton = getMainButton(); // button to sign in
 	private final JButton forgotPasswordButton = getOptionalButton(); // button to reset password
+	private final JPasswordField passwordField = getPasswordField(); // field where password is entered
+	private final JTextField usernameField = getUsernameField(); // field where username is entered
 
 	public LoginScreen() {
 		drawScreen("Sign in to HungOut");
@@ -38,7 +39,9 @@ public class LoginScreen extends AuthenticationScreen {
 
 	@Override
 	public void mainButtonAction() {
-		System.out.println("hello!");
+		String username = usernameField.getText(); // inputted username
+		String password = new String(passwordField.getPassword()); // inputted password
+		System.out.println(username + " " + password);
 		// TO DO: actually log in
 	}
 

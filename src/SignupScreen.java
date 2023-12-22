@@ -5,16 +5,16 @@
  */
 
 import java.awt.EventQueue;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
+import javax.swing.*;
 
 public class SignupScreen extends AuthenticationScreen {
 
 	private final JPanel signUpPanel = getMainPanel(); // main panel of the screen
 	private final JButton signUpButton = getMainButton(); // button to make a new account
 	private final JButton signInButton = getOptionalButton(); // button to sign in
+	private final JPasswordField passwordField = getPasswordField(); // field where password is entered
+	private final JTextField emailInputField = new JTextField(); // takes in email input
+	private final JTextField usernameField = getUsernameField(); // field where username is entered
 
 	public SignupScreen() {
 		drawScreen("Sign up for HungOut");
@@ -22,31 +22,30 @@ public class SignupScreen extends AuthenticationScreen {
 		drawHeader("Create Account");
 		drawUserNameSection();
 		drawPasswordSection();
-		drawPasswordConfirmation();
+		drawEmailInput();
 		drawMainButton("Sign Up");
 		drawOptionalButton("Have an account?");
 		setVisible(true);
 	}
 
-	/** Method Name: drawPasswordConfirmation
+	/** Method Name: drawEmailInput
 	 * @Author Diep Long, Abhay Manoj
 	 * @Date December 20, 2023
 	 * @Modified December 20, 2023
-	 * @Description Draws the password confirmation section
+	 * @Description Draws the email input section
 	 * @Parameters N/A
 	 * @Returns N/A, Data Type: Void
 	 * @Dependencies: Swing, AWT
 	 * @Throws/Exceptions: N/A
 	 */
 
-	private void drawPasswordConfirmation() {
-		JLabel passwordConfirmLabel = new JLabel("Confirm Password:"); // displays the confirm password text
-		passwordConfirmLabel.setFont(getFont());
-		passwordConfirmLabel.setBounds(34, 200, 163, 31);
-		JPasswordField passwordConfirmFiled = new JPasswordField(); // takes in password input
-		passwordConfirmFiled.setBounds(215, 200, 181, 37);
-		signUpPanel.add(passwordConfirmLabel);
-		signUpPanel.add(passwordConfirmFiled);
+	private void drawEmailInput() {
+		JLabel emailInputLabel = new JLabel("Enter email:"); // displays the confirm password text
+		emailInputLabel.setFont(getFont());
+		emailInputLabel.setBounds(34, 200, 163, 31);
+		emailInputField.setBounds(215, 200, 181, 37);
+		signUpPanel.add(emailInputLabel);
+		signUpPanel.add(emailInputField);
 	}
 
 	/** Method Name: mainButtonAction
@@ -62,7 +61,9 @@ public class SignupScreen extends AuthenticationScreen {
 
 	@Override
 	public void mainButtonAction() {
-		System.out.println("hello!");
+		String username = usernameField.getText(); // inputted username
+		String password = new String(passwordField.getPassword()); // inputted password
+		String email = emailInputField.getText(); // inputted email
 		// TO DO: actually make an account for them and add them to MYSQL database
 	}
 
