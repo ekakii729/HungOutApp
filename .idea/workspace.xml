@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="Abstracted username, password fields, and other changes">
-      <change afterPath="$PROJECT_DIR$/src/DBConnector.java" afterDir="false" />
+    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="Added DBConnector class">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SignupScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignupScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBConnector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1703098750344" duration="535000" />
       <workItem from="1703122379874" duration="1183000" />
       <workItem from="1703123571861" duration="12673000" />
-      <workItem from="1703252681663" duration="6249000" />
+      <workItem from="1703252681663" duration="8052000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned up shit">
       <created>1702927775179</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703217236942</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added DBConnector class">
+      <created>1703294730310</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703294730310</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +218,7 @@
     <MESSAGE value="Made imports alphabetical;" />
     <MESSAGE value="I changed a shit ton bruh" />
     <MESSAGE value="Abstracted username, password fields, and other changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstracted username, password fields, and other changes" />
+    <MESSAGE value="Added DBConnector class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DBConnector class" />
   </component>
 </project>
