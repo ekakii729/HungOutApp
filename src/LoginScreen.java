@@ -29,7 +29,7 @@ public class LoginScreen extends AuthenticationScreen {
 	/** Method Name: mainButtonAction
 	 * @Author Diep Long, Abhay Manoj
 	 * @Date December 20, 2023
-	 * @Modified December 20, 2023
+	 * @Modified December 21, 2023
 	 * @Description The button action for "sign-in", logs in
 	 * @Parameters N/A
 	 * @Returns N/A, Data Type: Void

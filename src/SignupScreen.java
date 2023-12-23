@@ -51,7 +51,7 @@ public class SignupScreen extends AuthenticationScreen {
 	/** Method Name: mainButtonAction
 	 * @Author Diep Long, Abhay Manoj
 	 * @Date December 20, 2023
-	 * @Modified December 20, 2023
+	 * @Modified December 21, 2023
 	 * @Description The button action for "sign-up", makes a new account
 	 * @Parameters N/A
 	 * @Returns N/A, Data Type: Void
@@ -61,10 +61,8 @@ public class SignupScreen extends AuthenticationScreen {
 
 	@Override
 	public void mainButtonAction() {
-		String username = usernameField.getText(); // inputted username
-		String password = new String(passwordField.getPassword()); // inputted password
-		String email = emailInputField.getText(); // inputted email
-		// TO DO: actually make an account for them and add them to MYSQL database
+		DBConnector connector = new DBConnector();
+		connector.addUser(usernameField.getText(), new String(passwordField.getPassword()), emailInputField.getText());
 	}
 
 	/** Method Name: optionalButtonAction
