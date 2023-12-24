@@ -6,12 +6,12 @@
 
 import java.sql.*;
 
-public class DBConnector {
+public class Database {
 
     private Connection connection; // connection to the database
-    private boolean isConnected = false; // checks if connected to the database
+    private boolean isConnected; // checks if connected to the database
 
-    public DBConnector() { connect(); }
+    public Database() { connect(); }
 
     /** Method Name: connect
      * @Author Abhay Manoj
@@ -62,10 +62,16 @@ public class DBConnector {
      */
 
     public void addUser(String username, String password, String email) {
-        if (!isConnected) throw new RuntimeException("USER CANNOT BE ADDED AS DATABASE IS NOT CONNECTED.");
-        if (username.isBlank() || password.isBlank() || email.isBlank()) throw new RuntimeException("ONE OF THE USER FIELDS ARE BLANK, USER CANNOT BE ADDED");
-        if (hasUser(username)) throw new RuntimeException("USER IS ALREADY ADDED TO THE DATABASE.");
-        try {
+        if (username.isBlank() || password.isBlank() || email.isBlank()) {
+            System.out.println("User cannot be added, as one or more of their fields are blank.");
+            return;
+        } if (!isConnected) {
+            System.out.println("When attempting to add " + username + ", database was not connected.");
+            return;
+        } if (hasUser(username)) {
+            System.out.println(username + " has already been added to database.");
+            return;
+        } try {
             PreparedStatement addUserStatement = connection.prepareStatement("insert into users values (?, ?, ?)"); // adding user command
             addUserStatement.setString(1, username);
             addUserStatement.setString(2, password);
@@ -86,9 +92,16 @@ public class DBConnector {
      */
 
     public void removeUser(String username) {
-        if (!isConnected) throw new RuntimeException("USER CANNOT BE REMOVED AS DATABASE IS NOT CONNECTED.");
-        if (!hasUser(username)) throw new RuntimeException("USER IS NOT PRESENT IN DATABASE, CANNOT BE REMOVED.");
-        try { connection.prepareStatement("delete from users where username = \"" + username +"\"").executeUpdate(); }
+        if (username.isBlank()) {
+            System.out.println("Provided username is blank, could not remove.");
+            return;
+        } if (!isConnected) {
+            System.out.println("When attempting to remove " + username + ", database was not connected.");
+            return;
+        } if (!hasUser(username)) {
+            System.out.println(username + " could not be removed, as they are not present in the database.");
+            return;
+        } try { connection.prepareStatement("delete from users where username = \"" + username +"\"").executeUpdate(); }
         catch (SQLException e) { throw new RuntimeException(e); }
     }
 
@@ -104,8 +117,13 @@ public class DBConnector {
      */
 
     public boolean hasUser(String username) {
-        if (!isConnected) throw new RuntimeException("USER CANNOT BE CHECKED AS DATABASE IS NOT CONNECTED.");
-        try { return connection.prepareStatement("SELECT * FROM users WHERE username = \"" + username + "\"").executeQuery().next(); }
+        if (username.isBlank()) {
+            System.out.println("Provided username is blank, could not check if they are present.");
+            return false;
+        } if (!isConnected) {
+            System.out.println("When attempting to check if user " + username + ", is present, database was not connected.");
+            return false;
+        } try { return connection.prepareStatement("SELECT * FROM users WHERE username = \"" + username + "\"").executeQuery().next(); }
         catch (SQLException e) { throw new RuntimeException(e); }
     }
 
@@ -114,7 +132,7 @@ public class DBConnector {
      * @Date December 22, 2023
      * @Modified December 22, 2023
      * @Description Prints users in database out
-     * @Parameters username - username of the user
+     * @Parameters N/A
      * @Returns N/A, Data Type: Void
      * @Dependencies: SQL
      * @Throws/Exceptions: RuntimeException

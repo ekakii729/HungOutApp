@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="Added DBConnector class">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="36a4d7c6-e8e7-4ef7-8917-b493b6aca68e" name="Changes" comment="Finished preliminary version of database class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SignupScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignupScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="adding_mysql_connection" />
@@ -91,7 +96,8 @@
       <workItem from="1703098750344" duration="535000" />
       <workItem from="1703122379874" duration="1183000" />
       <workItem from="1703123571861" duration="12673000" />
-      <workItem from="1703252681663" duration="8052000" />
+      <workItem from="1703252681663" duration="8763000" />
+      <workItem from="1703436921916" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned up shit">
       <created>1702927775179</created>
@@ -177,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703294730310</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished preliminary version of database class">
+      <created>1703296551527</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703296551527</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +232,7 @@
     <MESSAGE value="I changed a shit ton bruh" />
     <MESSAGE value="Abstracted username, password fields, and other changes" />
     <MESSAGE value="Added DBConnector class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added DBConnector class" />
+    <MESSAGE value="Finished preliminary version of database class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished preliminary version of database class" />
   </component>
 </project>

@@ -61,8 +61,7 @@ public class SignupScreen extends AuthenticationScreen {
 
 	@Override
 	public void mainButtonAction() {
-		DBConnector connector = new DBConnector();
-		connector.addUser(usernameField.getText(), new String(passwordField.getPassword()), emailInputField.getText());
+
 	}
 
 	/** Method Name: optionalButtonAction
